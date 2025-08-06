@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    animation: colorChange 5s infinite;
+}
+
+p {
+    font-size: 2rem;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #ff0000;
+    }
+
+    /* red */
+    25% {
+        color: #00ff00;
+    }
+
+    /* green */
+    50% {
+        color: #0000ff;
+    }
+
+    /* blue */
+    75% {
+        color: #ffff00;
+    }
+
+    /* yellow */
+    100% {
+        color: #ff0000;
+    }
+
+    /* back to red */
+}
